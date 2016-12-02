@@ -25,14 +25,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
-					<img class="text center img-responsive" src="img/girls-who-code-logo-150x150.png" alt="">				
+					<img class="logo" src="img/girls-who-code-logo-150x150.png" alt="">				
 				</div>
 				<div class="col-md-8 col-sm-7 col-xs-8">
 					<div class="text-right visible-xs">
-						<button class="btn" type="button" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+						<button class="btn btn-default" aria-Label="Left Align" type="button" data-toggle="collapse" data-target="#main-navigation">
+  						<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+						</button>
 					</div>
 					<nav class="hidden-xs">
-						<ul class="menu-pantalla list-inline text-right text-unstyle">
+						<ul class="menu-pantalla list-inline text-right list-unstyled">
 							<li><a href="#inicio">Inicio</a></li>
 							<li><a href="#documental">Documental</a></li>
 							<li><a href="#hackathon">Hackathon</a></li>
@@ -58,9 +60,9 @@
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-					<h1 option animated  pulse >CHICAS QUE CAMBIAN EL MUNDO</h1>
+					<h1 class="option animated  pulse" >CHICAS QUE CAMBIAN EL MUNDO</h1>
 					<p>¡Participa en nuestras actividades!</p>
-						<form action="inscribete">
+						<form  action="inscribete">
 							<button class=" option animated bounceInLeft btn btn-primary" type="submit">Inscríbete</button>
 						</form>					
 				</div>				
@@ -82,22 +84,22 @@
 			</div>			
 		</div>		
 	</section>
-	<section class="hackaton" id="hackathon">
+	<section class="hackathon" id="hackathon">
 		<div class="container">
-			<div class="row text-center">
-				<h2>HACKATHON</h2>
+			<div class="row">
 				<div class="col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12">
 					<img class="img-responsive" src="img/hackathon.jpg" alt="#">
 				</div>
 				<div class="col-lg-5 col-sm-12 col-xs-12">
+					<h2>HACKATHON</h2>
 					<h3>"Participa en nuestra Hackathon ¡Love is Respect!"</h3>
 					<p>Idea soluciones a las problemáticas que  te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 de setiembre desde las 10 a.m.</p>
-					<form action="inscribete">
+					<form class="text-left" action="inscribete">
 						<button class="btn btn-primary" type="submit">Inscríbete</button>
 					</form>					
 				</div>
-			</div>			
-		</div>		
+			</div>
+		</div>
 	</section>
 	<section class="contacto" id="contacto">
 		<div class="container">
@@ -120,8 +122,8 @@
 						<input class="form-control" type="text" placeholder="Nombre" required>
 						<input class="form-control" type="text" placeholder="Email" required>
 						<input class="form-control" type="text" placeholder="Asunto" required>
-						<input class="form-control" type="text" placeholder="Mensaje" required>
-						<button class="btn btn-primary" type="submit">Enviar</button>
+						<textarea class="form-control" rows="3">Mensaje</textarea>
+						<button class="text-left btn btn-primary " type="submit">Enviar</button>
 					</form>					
 				</div>
 			</div>			
@@ -130,7 +132,7 @@
 	<!----------------------end main section ------------>
 	<footer>
 		<div class="container text-left">
-			<p> ©2016 Code Girl. Diseñado por Laboratoria </p>
+			<p> ©2016 Code Girl. Diseñado por <span class="amarillo">Laboratoria</span></p>
 		</div>
 	</footer>
 </body>
